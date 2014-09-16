@@ -111,7 +111,8 @@ public class UserInterface {
 		selection = Integer.parseInt (stringSelection.trim());
 		return selection;
 	} // end showMenu()
-
+	
+	// Creates a University Reminder object and adds the attributes to it via the set methods
 	public UniReminder addUniReminder () {
 		UniReminder u = new UniReminder ();
 		
@@ -143,7 +144,8 @@ public class UserInterface {
 		
 		return u;
 	}	// end addUniReminder()
-
+	
+	// Creates a Purchase Reminder object and adds the attributes to it via the set methods
 	public PurchaseReminder addPurchaseReminder () {
 		PurchaseReminder p = new PurchaseReminder ();
 
@@ -177,7 +179,7 @@ public class UserInterface {
 
 	} // end addPurchaseReminder()
 
-
+	// Creates a save file method that uses the Reminder Worker to pass the objects down to the third tier for saving
 	public boolean saveFile (String fileName, DataStorage list) throws IOException {
 		ReminderWorker rw = new ReminderWorker ();
 		rw.saveFile (fileName, list); // assuming file name
