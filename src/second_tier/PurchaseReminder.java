@@ -1,3 +1,7 @@
+/**
+ * PurchaseReminder contains the attributes String item, String itemDescription and estimatedPrice.
+ **/
+
 package second_tier;
 
 public class PurchaseReminder extends Reminder {

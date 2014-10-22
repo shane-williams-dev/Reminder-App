@@ -1,3 +1,8 @@
+/**
+ * Reminder is the parent class of PurchaseReminder and UniReminder
+ * It's attributes are String title, String message and double time.
+ **/
+
 package second_tier;
 import java.io.*;
 

@@ -1,3 +1,8 @@
+/**
+ * ReminderWorker passes the information entered into the ArrayList<Reminder> down to the third tier to save.
+ * It also passes data contained in the data.obj back up to the UI to veiw.
+ **/
+
 package second_tier;
 
 import java.util.ArrayList;

@@ -1,3 +1,7 @@
+/**
+ * UniReminder contains the attributes String subject, String groupMembers and int urgency.
+ **/
+
 package second_tier;
 
 public class UniReminder extends Reminder {

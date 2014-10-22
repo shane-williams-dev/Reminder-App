@@ -6,7 +6,7 @@ import javax.swing.JOptionPane;
 
 import second_tier.*;
 /**
-* Scenario Stage 2 demo program - 1st-tier class.
+* Stage 2 Reminder App - 1st-tier class.
 
 **/
 public class UserInterface {
